@@ -8,4 +8,4 @@ I created this repo for rereading *gopl* and doing the exercises carefully.
 
 ## List of Content
 
-- [ch1]()
+- [ch1](ch1/README.md)
