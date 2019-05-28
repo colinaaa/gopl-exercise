@@ -32,4 +32,12 @@ s = s + sep + os.Args[i]
 
 The operator `+=` is an *assignment operator*. Each arithmetic and logical operator like `+` or `*` has a corresponding assignment operator.
 
+### Iteration of `map`
 
+> The order of map iteration is not specified, but in practice it is random, varying from one run to another. This design is **intentional**, since it prevents programs from relying on any particular ordering where none is guaranteed.
+
+
+### `bufio` Package
+
+> It helps make input and output efficient and convenient.
+> One of its most useful features is called `Scanner` that reads input and **breaks** into lines or words; it's often the easiest way to process input that comes naturally in lines. 
